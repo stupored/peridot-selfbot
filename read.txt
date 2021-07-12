@@ -1,0 +1,37 @@
+input your details into the config.json
+drop all files in root directory
+run: python3 -m pip install -U discord.py-self
+run: chmod -R 777 ./
+run: pip3 install -r requirements.txt
+debug any issues u find from there idk it was ran on Ubuntu 21.04, youll figure it out
+
+USAGE:
+python3 peridot.py
+or
+nohup python3 peridot.py &
+
+nohup allows the server to be disconnected to and still remain active etc
+
+NOTE:
+this was debugged, created, and ran on Ubuntu 21.04, no guarantee it will work on windows or any other os
+ICMP method in code is used for ddos, low effort method that uses 9-14% cpu and 90mb/s outbound, super lowkey easy to use and
+wont get you banned on many hosts, because of this it is semi shitty. dont expect to down anything more then a shitty home with icmp on 
+or u will be severely dissapointed 
+the code is shitty, dont talk shit ab it. you downloaded it..
+this was not made for you, but for me. published out of pity.
+
+config:
+in the config you will find token, prefix, embed, nitro sniper, logger
+for token paste your token into the quotations, for example: "exampletoken"
+for prefix enter a character you want as your bots prefix, prefix is used for cmds, default is "."
+for nitro sniper, leaving true will run the sniper passively and will try to steal nitro, false turns it off
+for logger, leave empty unless you have a users ID you would like to log
+furthermore on logger, the logger logs all msgs sent from that ID but only in the servers you are mutual in from the person, dms included
+for embed leaving true will make all commands except for a few, embedded, turn off to allow all commands except a few be un embedded
+
+peridot was made out of curiousity for python, its shit and half assed. use it or dont, but..
+if u r reading this, then you downloaded it so please share and leave a like on the github repo: https://github.com/stupored
+means a lot and any comments left for specific things will be added thru enough support.
+
+
+					        "105 108 121 112 101 114 105 100 111 116"
